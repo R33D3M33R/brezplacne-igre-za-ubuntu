@@ -1,4 +1,7 @@
 #!/bin/bash
+#Author: Andrej Mernik, 2015, http://andrej.mernik.eu/brezplacne-igre-za-ubuntu/
+#License: GPLv3
+
 i=0
 zakasnitev=30 # koliko sekund naj mine med posnetki
 posnetek="posnetek" # privzeto ime za posnetek
