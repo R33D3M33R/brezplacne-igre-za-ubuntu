@@ -13,7 +13,7 @@ echo "Zajemanje zaslonskih slik ..."
 while [ $i -lt 240 ]
 do
   let "i++"
-  ime="$igra$(date +"_%H%M%S_")$i".png
+  ime="$igra$(date +"_%H%M_")$i".png
   scrot -d $zakasnitev $ime
   echo "Zajet posnetek $ime"
 done
