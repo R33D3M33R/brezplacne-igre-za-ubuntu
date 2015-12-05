@@ -16,6 +16,6 @@ while [ $i -lt 240 ]
 do
   let "i++"
   ime="$posnetek$(date +"_%H%M_")$i".png
-  scrot -d $zakasnitev $ime
+  scrot -z -d $zakasnitev $ime
   echo "Zajet posnetek $ime"
 done
