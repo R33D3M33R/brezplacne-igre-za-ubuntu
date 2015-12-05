@@ -10,10 +10,8 @@ if [ ! -d "$izhodna_mapa" ]; then
     echo "Ustvarjanje izhodne mape $izhodna_mapa ..."
     mkdir "$izhodna_mapa"
 fi
-if [ $# -eq 1 ]; then
-    if [[ "$1" =~ ^[0-9]+[xX][0-9]+$ ]]; then
-        dimenzije="$1"
-    fi
+if [[ "$#" -eq 1 && "$1" =~ ^[0-9]+[xX][0-9]+$ ]]; then
+    dimenzije="$1"
 fi
 
 echo "Rezanje zaslonskih slik ..."
