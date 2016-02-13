@@ -20,3 +20,12 @@ Skripta za obrezavo zajetih slik, ki uporablja program imagemagick
 bash obrezi-posnetke.sh 640x480
 ```
 640x480 je niz, ki določa dimenzije obrezanega posnetka (širina x višina v slikovnih točkah)
+
+# primerjaj-razlicice.sh
+Skripta, ki preveri, kateri paketi so dobili novo različico
+
+## Uporaba:
+
+```bash
+bash primerjaj-razlicice.sh
+```
