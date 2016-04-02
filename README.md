@@ -3,12 +3,12 @@ Skripte za obdelavo seznama brezplačnih iger za (K)Ubuntu
 http://andrej.mernik.eu/igre/brezplacne-igre-za-ubuntu/
 
 # zajem-zaslona.sh
-Skripta za zajem zaslona, ki uporablja program scrot
+Skripta za zajem zaslona, ki uporablja program scrot. Možnosti -p in -z sta izbirni.
 
 ## Uporaba:
 
 ```bash
-bash zajem-zaslona.sh igra
+bash zajem-zaslona.sh -p igra -z zakasnitev
 ```
 
 # obrezi-posnetke.sh
