@@ -8,9 +8,18 @@ posnetek="posnetek" # privzeto ime za posnetek
 
 type scrot >/dev/null 2>&1 || { echo >&2 "Program scrot je zahtevan in ni namescen!"; exit 1; }
 
-if [ $# -eq 1 ]; then
-    posnetek="$1"
-fi
+while getopts ":p:z:" moznost; do
+  case $moznost in
+    p) posnetek="$OPTARG"
+    ;;
+    z) zakasnitev="$OPTARG"
+    ;;
+    \?)
+    echo "Neveljavna moznost: -$OPTARG (veljavni moznosti sta -p in -z). Uporabljanje privzetih nastavitev ..." >&2
+    ;;
+  esac
+done
+
 echo "Zajemanje zaslonskih slik ..."
 while [ $i -lt 240 ]
 do
