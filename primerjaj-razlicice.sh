@@ -26,7 +26,7 @@ do
   paket=${polje[0]}
   razlicica=$(dobi_razlicico "${polje[1]}")
   razlicica_skladisce=$(dobi_razlicico "$(dobi_razlicico "$(apt-cache policy $paket | grep Kandidat: | cut -d" " -f4)")")
-  if [[ "$razlicica_skladisce" != "$razlicica" && ("$PREZRI_VHODNI_BREZ" = false || ("$PREZRI_VHODNI_BREZ" = true && "$razlicica" != "(brez)")) ]]; then
+  if [[ "$razlicica_skladisce" != "$razlicica" && ("$PREZRI_VHODNI_BREZ" == false || ("$PREZRI_VHODNI_BREZ" == true && "$razlicica" != "(brez)")) ]]; then
     echo "$paket opisana: $razlicica skladisce: $razlicica_skladisce" >> $IZHOD
   fi
 done < "$VHOD"
