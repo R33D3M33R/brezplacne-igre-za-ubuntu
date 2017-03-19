@@ -1,5 +1,5 @@
 #!/bin/bash
-#Author: Andrej Mernik, 2016, http://andrej.mernik.eu/brezplacne-igre-za-ubuntu/
+#Author: Andrej Mernik, 2016-2017, https://andrej.mernik.eu/brezplacne-igre-za-ubuntu/
 #License: GPLv3
 
 VHOD="brezplacne_igre_za_ubuntu.csv" # z vejico locen seznam: paket,razlicica
