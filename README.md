@@ -1,6 +1,6 @@
 # brezplacne-igre-za-ubuntu
 Skripte za obdelavo seznama brezplačnih iger za (K)Ubuntu
-http://andrej.mernik.eu/igre/brezplacne-igre-za-ubuntu/
+https://andrej.mernik.eu/igre/brezplacne-igre-za-ubuntu/
 
 # zajem-zaslona.sh
 Skripta za zajem zaslona, ki uporablja program scrot. Možnosti -p in -z sta izbirni.
