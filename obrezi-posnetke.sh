@@ -1,5 +1,5 @@
 #!/bin/bash
-#Author: Andrej Mernik, 2015-2017, https://andrej.mernik.eu/brezplacne-igre-za-ubuntu/
+#Author: Andrej Mernik, 2015-2017, https://andrej.mernik.eu/igre/brezplacne-igre-za-ubuntu/
 #License: GPLv3
 
 dimenzije="800x600" # sirina x visina obrezane slike
